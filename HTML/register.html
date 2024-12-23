@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is the registration page</title>
+</head>
+<body>
+	<!-- This is how you write a comment in HTML -->
+	<!-- Shortcut for mac is command + / -->
+	<!-- Shortcut on windows is ctrl + /  or windows + /-->
+	<form method="POST">
+		First Name: <input type="text" placeholder="First Name" name="firstName">
+		<br>
+		Last Name: <input type="text" placeholder="Last Name" name="lastName">
+		<br>
+		Birthday: <input type="date" name="dob">
+		<br>
+		Gender: 
+		<br> <input type="radio" name="gender" value="male"> Male
+		<br> <input type="radio" name="gender" value="female"> Female
+		<br> Hobbies: 
+		<br> <input type="checkbox" name="music" value="music"> Music
+		<br> <input type="checkbox" name="driving" value=""> Driving
+		<br> <input type="checkbox" name="other" value=""> Some other
+		<br>
+		Language: <br>
+		<select multiple name="language">
+			<option value="c#">C#</option>
+			<option value="java" >java</option>
+			<option value="node">Node.js</option>
+		</select>
+		<br> 
+		Email: <input type="email" placeholder="Email ID "name="emailID" required>
+		<br>
+		Password: <input type="password" min="5" name="pass">
+		<br>
+		<input type="submit" value="Register" name="submitInfo">
+		<input type="reset" value="Clear" name="resetData">
+	</form>
+</body>
+</html>
